@@ -1,0 +1,1060 @@
+.homepage{
+    height: 100%;
+    width: 100vw;
+    overflow-y: hidden;
+}
+
+.hpInfSec{
+    width: 100%;
+    padding: 5px 0px;
+    background: #343434
+}
+
+
+.hpHeadInf{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.hpHeadInformation{
+    font-size: 10px;
+    font-weight: 400;
+    color:#b0b0b0;
+}
+
+.hpHeadSec{
+    width: 100%;
+    padding: 10px 0px;
+    background:#1b7700;
+}
+
+.hpHeadDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.direttaLogoLink{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.direttaLogoDiv{
+    height: 40px;
+    width: 40px;
+}
+
+.direttaLogo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.direttaLogoTxt{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hpHeadDivRight{
+    display: flex;
+    align-items: center;
+}
+
+.dayOrNight{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    padding: 2px 4px 2px 15px;
+    border-radius: 12px;
+    background: #053600;
+}
+
+.daybutton{
+    position: absolute;
+    left: -12px;
+    top: 0px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.daybuttonD{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:10;
+}
+
+.searchbutt{
+    margin-right: 8px;
+}
+
+.settingsbutt{
+    margin-right: 8px;
+}
+
+.privacybutts{
+    display: flex;
+    align-items: center;
+}
+
+.accessobutt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accessobutton{
+    padding: 0px 8px 0px 5px;
+    border:none;
+    font-size: 10px;
+    font-weight: 400;
+    color:#fff;
+    background:#1b7700;
+    cursor:pointer;
+}
+
+.regiz{
+    padding: 6px 9px;
+    border:none;
+    font-size: 10px;
+    font-weight: 500;
+    color:#fff;
+    background: #053600;
+    cursor:pointer;
+}
+
+.sports-top-menu-sec{
+    width: 100%;
+    background: #085f00;
+}
+
+.sports-top-menu{
+    display: flex;
+    width: 70%;
+    margin: 0px auto;
+    padding:0px;
+}
+
+.preferitiSports{
+    display: flex;
+    flex:1;
+    align-items: center;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.preferiti-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+}
+
+.prefer-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+    color:#fff;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.preferiti-num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: #053600;
+}
+
+.num-of-preferiti{
+    text-align: center;
+    color:rgb(199, 197, 197);
+    font-size: 7px;
+    font-weight: 500;
+}
+
+.groupSports{
+    display: flex;
+    flex:10;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.type-of-sports{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 0px 6px 0px 4px;
+    background: #085f00;
+    cursor:pointer;
+}
+
+.type-of-sports:hover{
+    background: #053600;
+}
+
+.calcio{
+    color:#343434;
+    background: #fff !important;
+}
+
+.type-of-sports-txt{
+    padding-left: 3px;
+    color:#fff;
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.clcTxt{
+    color:#343434 !important;
+}
+
+.piuSports{
+    display: flex;
+    flex:2;
+    align-items: center;
+    padding:0px 6px;
+}
+
+.hpContainer{
+    width: 100%;
+    background:#e6efe6;
+}
+
+.content-hpContainer{
+    position: relative;
+    display: flex;
+    width: 73%;
+    margin:0px auto;
+    padding: 0 10px 10px;
+    background:#fff;
+    box-sizing: border-box;
+}
+
+.main-hpContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+.mainInnner-hpContainer{
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.myList-legaue{
+    display: flex;
+    flex-direction: column;
+    flex:1.6;
+}
+
+.myList-legaue-el{
+    display: flex;
+    flex-direction: column;
+}
+
+.myList-legaue-el-head{
+    display: flex;
+    align-items: center;
+    padding: 2px 6px;
+    background: #ffe1af;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.myList-legaue-el-headTxt{
+    color:#656565;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.best-leagues{
+    width: 100%;
+    padding-top: 4px;
+    background:#e6efe6;
+}
+
+.best-leagues-it{
+    width: 100%;
+    display: flex;
+    padding: 3.5px 0px;
+}
+
+.go-to-league{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 9px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.league-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 10px;
+    padding-right: 3px;
+}
+
+.league-flag{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+
+.league-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2px;
+}
+
+.league-nameTxt{
+    color:#656565;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.banner-zone{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    background: #fff;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.bannerAdd{
+    position: relative;
+    height: 240px;
+    width: 100px;
+    padding:0px 5px;
+}
+
+.bannerImg{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.bannerPub{
+    color:#9c9595;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 300;
+}
+
+.mynation-list{
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+    background:#fff;
+}
+
+.mynation-list-el{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 5px;
+    padding: 2px 6px;
+    background: #ffe1af;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.best-leagues-it{
+    display: flex;
+    align-items: center;
+}
+
+.aggungi-nazi{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 28px;
+    text-decoration: none;
+}
+
+.find-nazionali{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 9px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.find-nazionali:hover{
+    text-decoration: underline;
+    text-decoration-color: #656565;
+    text-underline-offset: 1px;
+}
+
+.alle-nazioni{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nazioni{
+    display: flex;
+    align-items: center;
+    padding:2px 8px;
+    color:#000;
+    font-size: 11px;
+    font-weight: 400;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.nazioni-name{
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+}
+
+.link-to-nazioni{
+    padding: 3px;
+    color:#656565;
+    font-size: 8px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.link-to-nazioni:hover{
+    text-decoration: underline;
+    text-decoration-color: #656565;
+    text-underline-offset: 1px;
+}
+
+.di-piu-nazion{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.di-piu{
+    display: flex;
+    padding: 2px;
+}
+
+.di-piu-txt{
+    color:#656565;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.matches-by-date{
+    display: flex;
+    flex-direction: column;
+    flex:8;
+    margin-left: 6px;
+}
+
+.matches-box{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    background:#008357;
+    cursor:pointer;
+}
+
+.box-left-match{
+    display: flex;
+    padding:2px 5px 5px 22px;
+}
+
+.bet{
+    color:#fff;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+b{
+    color:yellow;
+}
+
+.box-right-match{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.visita-bet{
+    color:#fff;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.restrizioni{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restrizioni-txt{
+    color:#fff;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.live-matches-table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.live-matches-tab{
+    width: 100%;
+    display: flex;
+    margin-top: 8px;
+    background:#fff;
+    border-bottom: 3px solid #085f00;
+}
+
+.tabs-group{
+    display: flex;
+    align-items: start;
+    flex:8;
+    gap:1.2px;
+    background: #ffffff;
+    cursor:pointer;
+}
+
+.tabs_tab{
+    font-size: 10px;
+    font-weight: 400;
+    padding: 4px 4px 7px;
+    background:rgb(238 230 230);
+}
+
+.selected{
+    color:#fff !important;
+    background:#085f00 !important;
+}
+
+.calendar-group{
+    display: flex;
+    flex:2;
+}
+
+.cal-date{
+    display: flex;
+    padding: 3px 8px 1px;
+    color:#fff;
+    background-color:#085f00;
+}
+
+.cale{
+    display: flex;
+    align-items: center;
+}
+
+.calendar{
+    height: 20px;
+    width: 20px;
+    background-color: inherit;
+}
+
+.cal-fowr,
+.cal-back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    background:rgb(238 230 230);
+}
+
+.currDay{
+    display: flex;
+    align-items: center;
+    padding:2px 5px;
+    color:#fff;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.currDayTxt{
+    padding-left: 5px;
+    color:#fff;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.live-matche-event{
+    width: 100%;
+}
+
+.league-live-event{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.league-live-event-header{
+    width: 100%;
+    display: flex;  
+    padding: 3px 0px;
+    background: #ffe1af;
+}
+
+.league-star{
+    display: flex;
+    align-items: center;
+    flex:1;
+    padding-left: 5px;
+}
+
+.league-inf{
+    display: flex;
+    align-items: center;
+    flex:10; 
+    margin-left: -13px;
+}
+
+.name-of-league{
+    display: flex;
+    align-items: center;
+}
+
+.league-country{
+    color:#494444;
+    font-size: 9px;
+    font-weight: 500;
+}
+
+.league-name{
+    text-decoration: none;
+    color:#494444;
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.league-name:hover{
+    text-decoration: underline;
+    text-decoration-color: #413f3f;
+    text-underline-offset: 2px;
+}
+
+.league-clasif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:3; 
+}
+
+.league-clasif-it{
+    display: flex;
+    align-items: center;
+}
+
+.league-clasif-link{
+    color:#494444;
+    font-size: 8px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.league-live-event-match{
+    width: 100%;
+    display: flex;
+    padding: 2px 0px;
+    border-bottom: 1px solid #b0b0b0;
+}
+
+.league-live-event-match:last-child{
+    border:none;
+}
+
+.event-match-star{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+
+.event-match-time{
+    display: flex;
+    flex:1;
+    align-items: center;
+    color: #6e6565;
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.event-match-teams{
+    display: flex;
+    flex:9;
+    flex-direction: column;
+}
+
+.event-match-team{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-and-name{
+    display: flex;
+    align-items: center;
+}
+
+.name-of-team{
+    color: #6e6565;
+    font-size: 9px;
+    font-weight: 400;
+    padding-left: 6px;
+}
+
+.ev-match-res{
+    display: flex;
+    font-size: 11px;
+    color: #c2bbbb;
+}
+
+.ev-match-logo-team{
+    width: 12px;
+    height:12px;
+    object-fit: fill;
+}
+
+.live-event-match{
+    display: flex;
+    flex:3;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.see-live{
+    margin-right: 3px;
+    padding: 0px 3px;
+    color:#8c928c;
+    font-size: 6px;
+    font-weight: 400;
+    border:1.2px solid #b0b0b0;
+}
+
+.hpFooter{
+    width: 100%;
+    height: 200px;
+    background: #343434;
+}
+
+.footer-div{
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    margin:0px auto;
+    padding: 15px 0px;
+}
+
+.footer-top,
+.footer-bott{
+    width: 100%;
+    display: flex;
+}
+
+.top-l-foot{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+}
+
+.top-left-head{
+     padding: 3px 0px 3px 15px;
+     color:#fff;
+     font-size: 12px;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+
+.top-left-el{
+   width: 100%;
+   height: 115px;
+   padding: 5px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.top-left-it{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.top-left-it:hover{
+    background:#2b2929;
+}
+
+.tl-it-link{
+    padding: 0px 5px;
+    text-decoration: none;
+    color:#bebebe;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.top-social{
+    display: flex;
+    flex-direction: column;
+    flex:1.5;
+}
+
+.top-soc-h{
+    padding: 3px 0px 3px 7px;
+    color:#fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.top-soc-icon{
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    cursor:pointer;
+}
+
+.top-soc-icon:hover{
+    background:#2b2929;
+}
+
+.fbIco{
+    color:#3b5998;
+    font-size: 22px;
+}
+
+.icon-name{
+    padding-left: 4px;
+    color:#bebebe;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.twitIco{
+    color:#00acee;
+    font-size: 22px;
+}
+
+.instIco{
+    color: #405DE6;
+    font-size: 22px;
+}
+
+.top-appl{
+    display: flex;
+    flex-direction: column;
+    flex:4;
+}
+
+.appl-h{
+    display: flex;
+    flex-direction: column;
+}
+
+.appl-h-it{
+    padding: 5px 0px;
+    color:#fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.appl-h-inf{
+    padding: 5px 0px;
+    color:#bebebe;
+    font-size: 8px;
+    font-weight: 300;
+}
+
+.appl-down{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.link-to-down{
+    display: flex;
+    width: 26%;
+    padding: 3px;
+    border-radius: 6px;
+    border: 1.3px solid #6e6565;
+    background: #000;
+    cursor:pointer;
+}
+
+.link-to-down:hover{
+    opacity: 0.8;
+}
+
+.app-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+
+.appStore{
+    color:#fff;
+    font-size: 19px;
+}
+
+.app-inf{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+}
+
+.scarica{
+    color:#bebebe;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.goTo{
+    color:#fff;
+    font-size: 9px;
+    font-weight: 500;
+}
+
+.top-log{
+    display: flex;
+    flex:1;
+}
+
+.promotionL{
+    position: relative;
+    width: 83%;
+    height: 93px;
+    bottom: -20px;
+    right: 11px;
+    overflow: hidden;
+}
+
+.promot-img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.hr{
+    width: 100%;
+    height: 0.7px;
+    background: #786666;
+}
+
+
+.footer-bott{
+    width: 100%;
+    display: flex;
+    padding: 5px 0px 5px 12px;
+}
+
+.copyrights-etc{
+    display: flex;
+    align-items: center;
+    flex:8;
+}
+
+.versione{
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
+}
+
+.versione-link{
+    text-decoration: underline;
+    color:#bebebe;
+    font-size: 8px;
+    font-weight: 400;
+    text-underline-offset: 1px;
+}
+
+.advert{
+    display: flex;
+    align-items: center;
+}
+
+.gioca{
+    color:#818181;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.giocaL{
+    text-decoration: none;
+    padding:0px 3px;
+    color:#818181;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.advertLogo{
+    width: 63px;
+    height: 26px;
+    margin-left: 20px;
+    background: url('https://www.diretta.it/res/_fs/build/italia_gambling_logo.d97a974.svg') no-repeat 50%/63px 26px
+}
+
+.advertLogo2{
+    width: 34px;
+    height: 23px;
+    margin-left: 14px;
+    background: url('https://www.diretta.it/res/_fs/build/italia_gambling_logo2.e39e32b.svg') no-repeat 50%/34px 23px;
+}
+
+.rights{
+    display: flex;
+    align-items: center;
+    padding:0px 6px;
+    color:#bebebe;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.privacy{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex:2;
+}
+
+.priv-link{
+    text-decoration: none;
+    color:#bebebe;
+    font-size: 8px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.priv-link:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.7px;
+}
